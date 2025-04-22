@@ -64,7 +64,7 @@ public:
     void printDetail() override {
         double c = calculateMembershipCardCost();
         cout << name << " - (National) " << city << " "
-             << (educational ? "Yes" : "No") << " " << c << "\n";
+             << (educational ? "Yes" : "No") << " " << c << "\n";//ovde moze da ti treba (p.educational ? "Yes" : "No")
     }
 
    

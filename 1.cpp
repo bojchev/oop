@@ -2,6 +2,21 @@
 
 using namespace std;
 
+
+enum Level {
+    LOW,
+    MEDIUM,
+    HIGH
+  } level;
+
+
+  /* string sizeStr;
+    switch (p.size) {
+        case FlatPizza::small: sizeStr = "small"; break;
+        case FlatPizza::large: sizeStr = "large"; break;
+        case FlatPizza::family: sizeStr = "family"; break;
+    }*/
+
 class Employee {
 protected:
     string name;
